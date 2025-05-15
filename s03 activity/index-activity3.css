@@ -1,0 +1,125 @@
+/*CSS RESET*/
+
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} 
+/*UPDATE FONT*/
+
+* {
+	font-family: "Courier New", monospace;
+	font-style: oblique;
+	font-weight: bold;
+}
+
+section {
+	text-align: center;
+}
+
+/*NAV STYLE*/
+
+nav	{
+	padding: 20px;
+	margin-bottom: 5px ;
+	background-color: orange;
+	text-align: center;
+	}
+
+a 	{
+	text-decoration: none;
+	color: black;
+	margin-left:100px;
+	margin-right: 100px;
+	}
+
+/*LANDING STYLE*/
+
+#profile {
+	height: 300px;
+	width: 300px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	border-radius: 25px;
+		}
+
+.landing-card   {
+	text-align: center;
+	color: white;
+				}
+
+#name	 {
+	margin-top:  30px;
+	margin-bottom: 30px;
+		 }
+
+#title	 {
+	margin-top:  30px;
+	margin-bottom: 30px;
+		 }	
+
+#intro	 {
+	width: 200px;
+	margin: auto;
+		 }			
+
+/*TOOLS STYLE*/
+
+#tools-title {
+	margin-bottom: 20px;
+	text-align: center;
+	color: white;
+}
+
+.tools-image {
+	height: 200px;
+	width: 200px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+/*PROJECTS STYLE*/
+
+#projects	{
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+}
+
+.card {
+	background-color: gainsboro;
+	height: 400px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.card-img {
+	height: 300px;
+	width: 300px;
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+
+/*FOOTER STYLE*/
+
+footer {
+	background-color: orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	margin-top: 4px;
+}
+
+body {
+	background-color: #FF8F4E;
+	background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/04/Beautiful-Plain-Website-Background.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
